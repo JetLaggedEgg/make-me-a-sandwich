@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# Made by http://github.com/jetlaggedegg/make-me-a-sandwich
+# Script and comment art below made by JetLaggedEgg (me).
+# http://github.com/jetlaggedegg/make-me-a-sandwich
+
+# Credit to Nate from http://www.ascii-art.de/ascii/s/sandwich.txt for sandiwch ascii art.
+# I intend no copyright infringment and am not selling or asking for donations. I am simply
+# sharing this script, which I made for personal use, with people of the world.
 
 #
 #
@@ -27,7 +32,7 @@
 if [ "$(whoami)" != "root" ]; then
   echo "What? Make it yourself."
 else
-  echo "Okay."
+  echo -n "Okay."
   echo -n "."
   sleep 1
   echo -n "."
